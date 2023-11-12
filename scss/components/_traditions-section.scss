@@ -1,0 +1,34 @@
+.traditions-section {
+    padding-top: 96px;
+}
+
+.traditions-container {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.traditions-content {
+    max-width: 710px;
+}
+
+.traditions-title {
+    margin-bottom: 80px;
+}
+
+.traditions-text .brand {
+    color: var(--color-brand);
+    font-weight: 600;
+}
+
+.traditions-text .uppercase {
+    text-transform: uppercase;
+}
+
+.chefs-list .uppercase {
+    text-transform: uppercase;
+}
+
+.traditions-text.limited {
+    max-width: 330px;
+}
