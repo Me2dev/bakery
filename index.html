@@ -57,7 +57,7 @@
         <div class="container">
           <div class="traditions-section__container">
             <div class="traditions-section__content">
-              <h2 class="traditions-section__title section-title">
+              <h2 class="traditions-section__title section__title">
                 Новий формат традицій
               </h2>
               <p>
@@ -151,12 +151,12 @@
               <li class="formats-section__item">
                 <article class="format-card">
                   <img
-                    class="format-images"
+                    class="format-card__images"
                     src="./images/walrus-format.jpg"
                     alt="Walrus"
                   />
-                  <h3 class="format-title" lang="en">Walrus</h3>
-                  <div class="format-text">
+                  <h3 class="format-card__title" lang="en">Walrus</h3>
+                  <div class="format-card__text">
                     <p>Площа: до 120 м2</p>
                     <p>Меню: розширене меню</p>
                     <p>
@@ -170,12 +170,12 @@
               <li class="formats-section__item">
                 <article class="format-card">
                   <img
-                    class="format-images"
+                    class="format-card__images"
                     src="./images/horseshoe-format.jpg"
                     alt="Horseshoe"
                   />
-                  <h3 class="format-title" lang="en">Horseshoe</h3>
-                  <div class="format-text">
+                  <h3 class="format-card__title" lang="en">Horseshoe</h3>
+                  <div class="format-card__text">
                     <p>Площа: до 25 м2</p>
                     <p>Меню: розширене меню</p>
                     <p>
@@ -189,12 +189,12 @@
               <li class="formats-section__item">
                 <article class="format-card">
                   <img
-                    class="format-images"
+                    class="format-card__images"
                     src="./images/handlebar-format.jpg"
                     alt="Handlebar"
                   />
-                  <h3 class="format-title" lang="en">Handlebar</h3>
-                  <div class="format-text">
+                  <h3 class="format-card__title" lang="en">Handlebar</h3>
+                  <div class="format-card__text">
                     <p>Площа: до 30 м2</p>
                     <p>Меню: розширене меню</p>
                     <p>
@@ -216,19 +216,19 @@
       </section>
       <section class="contact-section section" id="contact-section">
         <div class="container">
-          <div class="contact-container">
-            <div class="contact-form">
-              <h2 class="contacts-title section-title">
+          <div class="contact-section__container">
+            <div class="contact-section__form">
+              <h2 class="contact-section__title section__title">
                 Приєднуйся до мережі пекарень
               </h2>
               <p>Заповни форму, щоб ми зв'язались с тобою!</p>
               <form name="contact-form" autocomplete="off">
-                <div class="form-field">
-                  <label class="form-label visually-hidden" for="user-name">
+                <div class="contact-section__form-field input">
+                  <label class="input__label visually-hidden" for="user-name">
                     Ім'я
                   </label>
                   <input
-                    class="form-input"
+                    class="input__control"
                     type="text"
                     name="user-name"
                     id="user-name"
@@ -236,12 +236,12 @@
                   />
                 </div>
 
-                <div class="form-field">
-                  <label class="form-label visually-hidden" for="user-tel">
+                <div class="contact-section__form-field input">
+                  <label class="input__label visually-hidden" for="user-tel">
                     Телефон
                   </label>
                   <input
-                    class="form-input"
+                    class="input__control"
                     type="tel"
                     name="user-tel"
                     id="user-tel"
@@ -249,12 +249,12 @@
                   />
                 </div>
 
-                <div class="form-field">
-                  <label class="form-label visually-hidden" for="user-email">
+                <div class="contact-section__form-field input">
+                  <label class="input__label visually-hidden" for="user-email">
                     Електронна пошта
                   </label>
                   <input
-                    class="form-input"
+                    class="input__control"
                     type="email"
                     name="user-email"
                     id="user-email"
@@ -262,19 +262,19 @@
                   />
                 </div>
 
-                <button class="form-button button" type="submit">
+                <button class="contact-section__button button" type="submit">
                   Замовити дзвінок
                 </button>
                 <p class="form-terms">
                   Натискаючи на кнопку я походжуюсь з
-                  <a class="form-terms-link" href="#"
-                    >політикою конфіденційності</a
-                  >
+                  <a class="form-terms__link" href="#">
+                    політикою конфіденційності
+                  </a>
                 </p>
               </form>
             </div>
             <iframe
-              class="contact-map"
+              class="contact-section__map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1640531314047!2d30.491233500000003!3d50.4566697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1699696653124!5m2!1sru!2sua"
               width="603"
               height="595"
@@ -289,20 +289,20 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-container">
-          <nav class="footer-nav">
-            <div class="footer-logo">
+          <nav class="footer-container__nav">
+            <div class="footer-container__logo">
               <a href="#">
                 <img src="./images/logo.svg" alt="logo" />
               </a>
             </div>
-            <ul class="footer-menu">
+            <ul class="footer-container__menu">
               <li><a class="link" href="">Наші традиції</a></li>
               <li><a class="link" href="">Шеф-кухарі</a></li>
               <li><a class="link" href="">Формати</a></li>
               <li><a class="link" href="">Контакти</a></li>
             </ul>
           </nav>
-          <address class="footer-address">
+          <address class="footer-container__address">
             <ul class="address-list">
               <li>
                 <a class="address-link" href="tel:3800000000000"
@@ -349,16 +349,18 @@
     </footer>
     <div class="backdrop is-hidden">
       <div class="modal">
-        <button class="modal-btn-close" type="button">Close</button>
+        <button class="modal__btn-close modal-btn-close" type="button">
+          Close
+        </button>
         <h2>Замовити дзвінок</h2>
         <p>Залишіть зявку та наш спеціаліст зв'яжеться з Вами!</p>
         <form name="modal-call-form" autocomplete="off" novalidate>
-          <div class="form-field">
-            <label class="form-label visually-hidden" for="user-name">
+          <div class="modal__form-field input">
+            <label class="input__label visually-hidden" for="user-name">
               Ім'я
             </label>
             <input
-              class="form-input"
+              class="input__control"
               type="text"
               name="user-name"
               id="user-name"
@@ -366,12 +368,12 @@
             />
           </div>
 
-          <div class="form-field">
-            <label class="form-label visually-hidden" for="user-tel">
+          <div class="modal__form-field input">
+            <label class="input__label visually-hidden" for="user-tel">
               Телефон
             </label>
             <input
-              class="form-input"
+              class="input__control"
               type="tel"
               name="user-tel"
               id="user-tel"
@@ -379,12 +381,12 @@
             />
           </div>
 
-          <div class="form-field">
-            <label class="form-label visually-hidden" for="user-email">
+          <div class="modal__form-field input">
+            <label class="input__label visually-hidden" for="user-email">
               Електронна пошта
             </label>
             <input
-              class="form-input"
+              class="input__control"
               type="email"
               name="user-email"
               id="user-email"
@@ -392,7 +394,7 @@
             />
           </div>
 
-          <button class="form-button button" type="submit">
+          <button class="modal__button button" type="submit">
             Замовити дзвінок
           </button>
           <p class="form-terms">
