@@ -1,6 +1,5 @@
 .input {
   position: relative;
-  margin-bottom: 32px;
 
   &__label {
     position: absolute;
@@ -9,30 +8,31 @@
   }
 
   &__control {
-    padding: 16px 42px;
+    padding: 8px 24px;
     width: 100%;
     font-size: 16px;
     line-height: 1.17;
-    border: 1px solid var(--color-secodary-dark);
+    border: 1px solid var(--color-secondary-dark);
     border-radius: 8px;
     background-color: transparent;
 
     &:focus {
-      border-color: var(--color-brand);
+      border-color: var(--color-brand-normal);
       outline: none;
     }
 
     &::placeholder {
-      color: var(--color-secodary-dark);
+      color: var(--color-secondary-dark);
       font-size: 16px;
       line-height: 1.17;
     }
+
     &:focus::placeholder {
       color: var(--color-primary-dark);
     }
 
-    &:hover::placeholder {
-      color: var(--color-primary-dark);
+    @media screen and (min-width: $bp-tablet) {
+      padding: 16px 42px;
     }
   }
 }

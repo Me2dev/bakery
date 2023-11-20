@@ -18,6 +18,10 @@
     color: var(--color-primary-dark);
   }
 
+  &__button {
+    display: none;
+  }
+
   &__item {
     flex-basis: calc((100% - 40px) / 3);
   }
