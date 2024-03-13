@@ -1,0 +1,25 @@
+{
+    "result": [
+      {
+        "name": "Артем",
+        "marks":{
+          "age":"34",
+          "work experience":"12"
+        }
+      },
+      {
+        "name": "Настя",
+        "marks":{
+          "age":"26",
+          "work experience":"7"
+        }
+      },
+      {
+        "name": "Собственно пример работы бд на json",
+        "marks":{
+          "answer":"Да",
+          "question":"Зачтите пж"
+        }
+      }
+    ]
+  }
