@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Современная пекарня</title>
+  </head>
+  <body>
+    <header class="header">
+      <link rel="stylesheet" href="./css/style4.css">
+      <div class="container">
+        <div class="header__container">
+          <nav class="header__nav">
+            <a href="">
+              <img src="./images/logo.svg" alt="logo" />
+            </a>
+            <ul class="header__menu">
+              <li>
+                <a class="link" href="#traditions-section">Наши традиции</a>
+              </li>
+              <li><a class="link" href="#chefs-section">Шеф-повара</a></li>
+              <li><a class="link" href="#formats-section">Форматы</a></li>
+              <li><a class="link" href="#contact-section">Свяжитесь с нами</a></li>
+            </ul>
+          </nav>
+          <button class="header__button button modal-btn-open" type="button">
+            Запросить звонок
+          </button>
+          <button class="header__burger menu-btn-open" type="button">
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu">
+            <button class="mobile-menu__btn-close menu-btn-close" type="button">
+              Закрыть
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="hero-section__title">
+            <span class="text-brand">Современная</span> пекарня
+          </h1>
+        </div>
+      </section>
+      <section class="advantages-section">
+        <div class="container">
+          <h2 class="visually-hidden">Наши преимущества</h2>
+          <ul class="advantages-section__list">
+            <li class="advantages-section__item">Высокий спрос на рынке</li>
+            <li class="advantages-section__item">
+              <a href='http://localhost:3000'> Заборнировать столик</a>
+            </li>
+            <li class="advantages-section__item">
+              Опытная команда
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="traditions-section section" id="traditions-section">
+        <div class="container">
+          <div class="traditions-section__container">
+            <div class="traditions-section__content">
+              <h2 class="traditions-section__title section__title">
+                Новый формат традиций
+              </h2>
+              <p>
+                <span class="text-brand text-bold text-uppercase"
+                  >Современная пекарня</span
+                >
+                — пекарня, вобравшая в себя все самое лучшее и сохранившая вкус 
+                традиционная выпечка и натуральность продуктов.
+              </p>
+              <p
+                class="traditions-section__text traditions-section__text--limited"
+              >
+              Мы работаем как самые известные сети -
+                <span class="text-brand">5 минут и ваш заказ готов</span>. А
+                Наши пекарни также имеют стильный дизайн и 
+                высокое качество обслуживания
+              </p>
+            </div>
+            <img src="./images/baker-man.jpg" alt="baker-man" />
+          </div>
+        </div>
+      </section>
+      <section class="chefs-section section" id="chefs-section">
+        <div class="container">
+          <h2
+            class="chefs-section__title section__title section__title--centered"
+          >
+            Наши лучие <br />
+            <span class="text-brand">Повара</span>
+          </h2>
+          <ul class="chefs-section__list">
+            <li class="chefs-section__item">
+              <article class="chef-card">
+                <img
+                  class="chef-card__photo"
+                  src="./images/nastya-chef.jpg"
+                  alt="Nastya-chef"
+                />
+                <div>
+                  <h3 class="chef-card__title"><a href="404error.html">Настя</a></h3>
+                  <p class="chef-card__text">Привет, меня зовут Настя!</p>
+                  <p class="chef-card__text">
+                    
+                    Уже больше 10 лет я воплащаю<br />
+                    в жизнь самые интересные и вкусные идеи.
+                  </p>
+                  <p class="chef-card__text">
+                    Я могу выпечь самые вкусные булочки  <br />
+                    для Вас!
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li class="chefs-section__item">
+              <article class="chef-card">
+                <img
+                  class="chef-card__photo"
+                  src="./images/vlad-chef.jpg"
+                  alt="Artem-chef"
+                />
+                <div>
+                  <h3 class="chef-card__title"><a href="index_2.html">Артем</a></h3>
+                  <p class="chef-card__text">Привет, меня зовут Артем!</p>
+                  <p class="chef-card__text">
+                    Мой кондитерский опыт уже 10 лет.
+                  </p>
+                  <p class="chef-card__text">
+                    <span class="uppercase">Современная пекарня</span> - это наша любовь
+                    которым мы делимся с вами через нашу выпечку!                </p>
+                  <p class="chef-card__text">
+                    Я приготовлю для вас уникальную начинку на любой вкус!
+                  </p>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="formats-section">
+        <div class="container">
+          <h2 class="formats-section__title section__title--centered">
+            <a href = "index_3.html"> Мы открылись!</a>
+          </h2>
+          <div class="formats-section__container">
+            <button class="carousel-button" type="button">
+              <svg width="16" height="16">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
+            </button>
+            <ul class="formats-section__list">
+              <li class="formats-section__item">
+                <article class="format-card">
+                  <img
+                    class="format-card__images"
+                    src="./images/walrus-format.jpg"
+                    alt="м. Проспект Вернадского"
+                  />
+                  <h3 class="format-card__title" lang="en">м. Проспект Вернадского</h3>
+                  <div class="format-card__text">
+                    <p>Площадь: до 120 м2</p>
+                    <p>Меню: расширенное меню!</p>
+                    <p>
+                      Персонал: 5 кассиров, 6 поваров, 6 помощников повара, 7
+                      официанты
+                    </p>
+                    <p>
+                      Места для посетителей: есть</p>
+                  </div>
+                </article>
+              </li>
+              <li class="formats-section__item">
+                <article class="format-card">
+                  <img
+                    class="format-card__images"
+                    src="./images/horseshoe-format.jpg"
+                    alt="м. Юго-Западная"
+                  />
+                  <h3 class="format-card__title" lang="en">м. Юго-Западная</h3>
+                  <div class="format-card__text">
+                    <p>Площадь: до 25 м2</p>
+                    <p>Меню: расширенное меню!</p>
+                    <p>
+                      Персонал: 2 кассира, 2 повара, 2 помощника повара, 2
+                      официанта
+                    </p>
+                    <p>Места для посетителей: есть</p>
+                  </div>
+                </article>
+              </li>
+              <li class="formats-section__item">
+                <article class="format-card">
+                  <img
+                    class="format-card__images"
+                    src="./images/handlebar-format.jpg"
+                    alt="м. Лубянка"
+                  />
+                  <h3 class="format-card__title" lang="en">м. Лубянка</h3>
+                  <div class="format-card__text">
+                    <p>Площадь: до 30 м2</p>
+                    <p>Меню: расширенное меню</p>
+                    <p>
+                      Персонал: 2 кассира, 2 повара, 2 помощника повара, 2
+                      официанта
+                    </p>
+                    <p>Места для посетителей: есть</p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+            <button class="carousel-button next" type="button">
+              <svg width="16" height="16">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section section" id="contact-section">
+        <div class="container">
+          <div class="contact-section__container">
+            <div class="contact-section__form">
+              <h2 class="contact-section__title section__title">
+                Присоединяйся к нашей пекарне
+              </h2>
+              <p>Заполните форму, чтобы мы могли связаться с Вами!</p>
+              <form name="contact-form" autocomplete="off">
+                <div class="contact-section__form-field input">
+                  <label class="input__label visually-hidden" for="user-name">
+                    Имя
+                  </label>
+                  <input
+                    class="input__control"
+                    type="text"
+                    name="user-name"
+                    id="user-name"
+                    placeholder="Имя"
+                  />
+                </div>
+
+                <div class="contact-section__form-field input">
+                  <label class="input__label visually-hidden" for="user-tel">
+                    Номер телефона
+                  </label>
+                  <input
+                    class="input__control"
+                    type="tel"
+                    name="user-tel"
+                    id="user-tel"
+                    placeholder="Номер телефона"
+                  />
+                </div>
+
+                <div class="contact-section__form-field input">
+                  <label class="input__label visually-hidden" for="user-email">
+                    Эл. почта
+                  </label>
+                  <input
+                    class="input__control"
+                    type="email"
+                    name="user-email"
+                    id="user-email"
+                    placeholder="Эл.почта"
+                  />
+                </div>
+
+                <button class="contact-section__button button" type="submit">
+                  Заказать звонок
+                </button>
+                <p class="form-terms">
+                  Нажимая на кнопку я даю согласие с
+                  <a class="form-terms__link" href="#">
+                    политикой конфиденциальности
+                  </a>
+                </p>
+              </form>
+            </div>
+            <iframe
+              class="contact-section__map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1912.7812585607453!2d37.47954446491589!3d55.67035281895219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54dc1d23b51c3%3A0x74763ed59c81ccb6!2z0KDQotCjINCc0JjQoNCt0JA!5e0!3m2!1sru!2sru!4v1702220027555!5m2!1sru!2sru" 
+              width="600"
+              height="450" 
+              style="border:0;"
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <nav class="footer__nav">
+            <div class="footer__logo">
+              <a href="#">
+                <img src="./images/logo.svg" alt="Логотип современной пекарни" />
+              </a>
+            </div>
+            <ul class="footer__menu">
+              <li><a class="link" href="#">Наши традиции</a></li>
+              <li><a class="link" href="#">Шеф-повара</a></li>
+              <li><a class="link" href="#">Форматы</a></li>
+              <li><a class="link" href="#">Связаться с нами</a></li>
+            </ul>
+          </nav>
+          <address class="footer__address">
+            <div class="footer__contacts">
+              <ul class="footer__address-list">
+                <li>
+                  <a class="footer__address-link" href="tel:+380960000007">
+                    + 7 (800) 555-35-35
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="footer__address-link"
+                    href="mailto:shopbakery@gmail.com"
+                  >
+                    modernbakery@gmail.com
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="footer__address-link"
+                    href="https://maps.app.goo.gl/N48wrsbj6jzXikZx5"
+                    target="_blank"
+                  >
+                  Россия, г. Москва, пр. Вернадского, 78               </a>
+                </li>
+              </ul>
+              <div class="footer__socials">
+                <a href="#">
+                  <svg class="footer__socials-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="footer__socials-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="footer__address-info">
+              <a class="footer__address-link" href="#" target="_blank">
+                Политика конфиденциальности
+              </a>
+              <p class="footer__address-copyright">&copy; 2024 Все права защищены</p>
+            </div>
+          </address>
+        </div>
+      </div>
+    </footer>
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button class="modal__btn-close modal-btn-close" type="button">
+          Закрыть
+        </button>
+        <h2>Заказать звонок</h2>
+        <p>Заполните форму, чтобы наш специалист смог с Вами связаться!</p>
+        <form name="modal-call-form" autocomplete="off" novalidate>
+          <div class="modal__form-field input">
+            <label class="input__label visually-hidden" for="user-name">
+              Имя
+            </label>
+            <input
+              class="input__control"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Имя"
+            />
+          </div>
+
+          <div class="modal__form-field input">
+            <label class="input__label visually-hidden" for="user-tel">
+              Номер телефона
+            </label>
+            <input
+              class="input__control"
+              type="tel"
+              name="user-tel"
+              id="user-tel"
+              placeholder="Номер телефона"
+            />
+          </div>
+
+          <div class="modal__form-field input">
+            <label class="input__label visually-hidden" for="user-email">
+              Эл. почта
+            </label>
+            <input
+              class="input__control"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Эл. почта"
+            />
+          </div>
+
+          <button class="modal__button button" type="submit">
+            Заказать звонок
+          </button>
+          <p class="form-terms">
+            Нажимая на кнокпу я соглашаюсь с 
+            <a class="form-terms-link" href="#">политикой конфиденциальности</a>
+          </p>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+   
+
+    
+  </body>
+</html>

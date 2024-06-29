@@ -1,0 +1,13 @@
+FROM node
+
+WORKDIR /shop-bakery
+
+COPY backend/package.json backend/package-lock.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["node", "index.js"]

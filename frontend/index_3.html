@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us!</title>
+  <link rel="stylesheet" href="./css/style3.css "/>
+  <!--<link rel="stylesheet" href="table.json" type="text/json">-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,800;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+  <hr class="desc-lineholder"/>
+  <p class="waiting-header default">Contact us!</p>
+  <p style="color:#fff; align = 'center' ; height: '20px';" id="userdata"></p>
+  <form id="contactForm" class="default" style="align:'center'">
+    <div>
+      <label style="color: #fff" for="email" class="email-label default">Почта:</label>
+      <br/>
+      <input type="email" id="email" class="input default" name="email" style="margin-top: 1.25%; margin-bottom: 5%;">
+    </div>
+    <div>
+      <label style="color: #fff" id="message" class="email-label default">Message:</label>
+      <br/>
+      <textarea id="message" class="input default" name="message" style="margin-top: 1.25%; margin-bottom: 5%;"></textarea>
+    </div>
+    <button class="button default" type="submit">Send</button><br/>
+    <button class="button default" id="back" onclick="document.location.assign('./index.html')" style="width: 50%; align: 'center'">Back</button>
+  </form>
+  <script src=".js/form.js"></script>
+  <script>
+    function showTest() {
+        window.alert("123")
+    }
+</script>
+<a href="data_show.html">Click here</a>
+</body>
+</html>

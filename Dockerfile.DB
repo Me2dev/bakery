@@ -1,0 +1,9 @@
+FROM mongo:latest
+
+ENV MONGO_DB=Feedback
+ENV MONGO_USER=mongo
+ENV MONGO_PASSWORD=Sanek174
+
+ADD init.sql /docker-entrypoint-initdb.d/
+
+EXPOSE 5432
